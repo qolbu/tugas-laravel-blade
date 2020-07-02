@@ -13,12 +13,12 @@
 
 Route::get('/', function()
 {
-    return view('master');
+    return view('index');
 });
 
 
 Route::get('/data-tables', function()
 {
-    return 'Data Tables';
+    return view('datatables');
 });
 
